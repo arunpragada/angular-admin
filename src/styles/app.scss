@@ -1,0 +1,18 @@
+    /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/bootstrap";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "spinner";
+@import "utils";
+@import "rtl";
+@import "responsive";
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-balham.css';
+@import 'ag-grid-community/dist/styles/ag-theme-fresh.css';
+@import 'ag-grid-community/dist/styles/ag-theme-bootstrap.css';
+
+@media print {
+    .breadcrumb {
+        display: none !important;
+    }
+}
+
