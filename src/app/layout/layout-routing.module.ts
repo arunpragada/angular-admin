@@ -18,7 +18,11 @@ const routes: Routes = [
             { path: 'blank-page', loadChildren: () => import('./blank-page/blank-page.module').then(m => m.BlankPageModule) },
             { path: 'appusers', loadChildren: () => import('./appusers/appusers.module').then(m => m.AppusersModule) },
             { path: 'approles', loadChildren: () => import('./approles/approles.module').then(m => m.ApprolesModule) },
-            { path: 'apppages', loadChildren: () => import('./apppages/apppages.module').then(m => m.ApppagesModule) }
+            { path: 'apppages', loadChildren: () => import('./apppages/apppages.module').then(m => m.ApppagesModule) },
+            { path: 'topicsmoderz', loadChildren: () => import('./topicmoderz/topicmoderz.module').then(m => m.TopicmoderzModule) },
+            { path: 'postsmoderz', loadChildren: () => import('./postsmoderz/postsmoderz.module').then(m => m.PostsmoderzModule) },
+            { path: 'managetopics', loadChildren: () => import('./managetopics/managetopics.module').then(m => m.ManagetopicsModule) }
+            
         ]
         
     }
